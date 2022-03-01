@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State capitals</title>
+    <script src="state-capitals.js"></script>
+    <style>
+        .div_demo{
+            background: purple;
+            width: 50%;
+            height: 300px;
+            padding: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div_demo">
+        <label for="states">Choose your State:</label>
+        <select id="state" onChange="myFunction()">
+            <option>Select State:</option>
+            <option value="AZ">Arizona</option>
+            <option value="CA">California</option>
+            <option value="TE">Texas</option>
+            <option value="NY">New York</option>
+            <option value="FL">Florida</option>
+        </select>
+
+        <select id="Capitals">
+            <option>Capitals</option>
+        </select>
+    </div>
+</body>
+</html>
